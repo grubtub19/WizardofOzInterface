@@ -1,0 +1,939 @@
+{
+  "Sheet1": {
+    "Phases": [
+      {
+        "PhaseName": "Intro/Beginning",
+        "SubCategories": [
+          {
+            "SubName": "IT_Script for Introduction: (Time)",
+            "Templates": [
+              {
+                "Item": "Hello, what’s your name?"
+              },
+              {
+                "Item": "It’s Buddy. And you?"
+              },
+              {
+                "Item": "I look forward to working together"
+              },
+              {
+                "Item": "I’m Buddy. It’s nice to meet you!"
+              },
+              {
+                "Item": "My name’s Buddy, the PairBuddy! Are you ready to start?"
+              },
+              {
+                "Item": "Do you want to get started?"
+              }
+            ]
+          },
+          {
+            "SubName": "Script for Getting Started: (Time)",
+            "Templates": [
+              {
+                "Item": "We should probably start with the test cases since it’s test-driven development."
+              },
+              {
+                "Item": "Which test do you want to do first?"
+              },
+              {
+                "Item": "How should we get started?"
+              },
+              {
+                "Item": "Do you want to be driver or navigator?"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "PhaseName": "When Buddy is Driving",
+        "SubCategories": [
+          {
+            "SubName": "Talking out loud when writing (with variable uncertainty)",
+            "Templates": [
+              {
+                "Item": "I think we just put a ____ here."
+              },
+              {
+                "Item": "And a ____ here."
+              },
+              {
+                "Item": "We should probably start with the test cases since it’s test-driven development."
+              },
+              {
+                "Item": "We'll..."
+              },
+              {
+                "Item": "We can just..."
+              },
+              {
+                "Item": "And then..."
+              },
+              {
+                "Item": "Maybe we can..."
+              },
+              {
+                "Item": "Um, should we…"
+              },
+              {
+                "Item": "I guess (we can)..."
+              },
+              {
+                "Item": "...increment/decrement here."
+              },
+              {
+                "Item": "...check if ____ is (less than, equal to, not equal to, etc). ______."
+              },
+              {
+                "Item": "…call this function."
+              },
+              {
+                "Item": "...create this ____."
+              },
+              {
+                "Item": "____."
+              }
+            ]
+          },
+          {
+            "SubName": "Script for uncertainty when writing (when PB runs out of things to write/wants to stop writing)",
+            "Templates": [
+              {
+                "Item": "And we can then uh."
+              },
+              {
+                "Item": "We can check if uh.\r"
+              },
+              {
+                "Item": "Um."
+              },
+              {
+                "Item": "Ok so."
+              },
+              {
+                "Item": "____."
+              }
+            ]
+          },
+          {
+            "SubName": "Ask for verification",
+            "Templates": [
+              {
+                "Item": "I think this might do the trick. I’m not sure though."
+              },
+              {
+                "Item": "Maybe this will work?"
+              },
+              {
+                "Item": "I think that will work…I don’t know for sure?"
+              },
+              {
+                "Item": "What else should we do here?"
+              },
+              {
+                "Item": "You got any ideas?"
+              },
+              {
+                "Item": "I don’t know what to do from here."
+              },
+              {
+                "Item": "Is this good?"
+              },
+              {
+                "Item": "Does this work?"
+              },
+              {
+                "Item": "I’m taking a guess here, does it look okay?"
+              },
+              {
+                "Item": "I’m not sure if I did this right."
+              },
+              {
+                "Item": "I don’t know if this is correct."
+              }
+            ]
+          },
+          {
+            "SubName": "Acknowledge suggestions/instructions/disagreements",
+            "Templates": [
+              {
+                "Item": "____."
+              },
+              {
+                "Item": "...Where are you talking about?"
+              },
+              {
+                "Item": "...Can you show me what you mean?"
+              },
+              {
+                "Item": "...Wait, can you show me?"
+              },
+              {
+                "Item": "...You can try that if you’d like."
+              },
+              {
+                "Item": "...That might be a good idea, you mind giving that a shot?"
+              }
+            ]
+          },
+          {
+            "SubName": "Navigator disagrees with PairBuddy’s work",
+            "Templates": [
+              {
+                "Item": "____."
+              }
+            ]
+          },
+          {
+            "SubName": "Ask for Input",
+            "Templates": [
+              {
+                "Item": "Wait, is this the right variable? (yes/no)"
+              },
+              {
+                "Item": "Should I use a for loop or a while loop?"
+              },
+              {
+                "Item": "What does this variable do?"
+              },
+              {
+                "Item": "Should this be true or false?"
+              }
+            ]
+          },
+          {
+            "SubName": "^Follow-up if wrong/uncertain",
+            "Templates": [
+              {
+                "Item": "Are you sure?"
+              },
+              {
+                "Item": "Why’s that?"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "PhaseName": "When PairBuddy Navigating",
+        "SubCategories": [
+          {
+            "SubName": "Comfort",
+            "Templates": [
+              {
+                "Item": "We’ve got this."
+              },
+              {
+                "Item": "Ok, let’s take a step back for a moment and refresh."
+              },
+              {
+                "Item": "That’s alright, I’ve made plenty of mistakes."
+              },
+              {
+                "Item": "We could check online for some examples."
+              },
+              {
+                "Item": "Do you want to come back to this later?"
+              },
+              {
+                "Item": "We could just come back to this later."
+              }
+            ]
+          },
+          {
+            "SubName": "Clarify",
+            "Templates": [
+              {
+                "Item": "Wait, so what exactly are we doing here?"
+              },
+              {
+                "Item": "What are you thinking?"
+              },
+              {
+                "Item": "What are you doing here?"
+              },
+              {
+                "Item": "What’s going on here?"
+              },
+              {
+                "Item": "What does this code do?"
+              },
+              {
+                "Item": "So… what are you thinking here?"
+              }
+            ]
+          },
+          {
+            "SubName": "Mistake",
+            "Templates": [
+              {
+                "Item": "I feel unsure about the approach we took here."
+              },
+              {
+                "Item": "I’m not sure we’re doing this right."
+              },
+              {
+                "Item": "I’m not sure if this is right."
+              }
+            ]
+          },
+          {
+            "SubName": "Encouragement",
+            "Templates": [
+              {
+                "Item": "That sounds good to me!"
+              },
+              {
+                "Item": "I think we’re on the right track"
+              },
+              {
+                "Item": "I like the way this is going."
+              },
+              {
+                "Item": "Oh, this looks promising."
+              },
+              {
+                "Item": "Ok, I see what you’re doing here."
+              },
+              {
+                "Item": "This way of doing it makes sense to me."
+              }
+            ]
+          },
+          {
+            "SubName": "What to do next",
+            "Templates": [
+              {
+                "Item": "Are we done with this one?"
+              },
+              {
+                "Item": "We’re getting close, what should we do next?"
+              },
+              {
+                "Item": "I think something needs to go here (on line ___)."
+              },
+              {
+                "Item": "We’re missing something. I don’t know what it is."
+              },
+              {
+                "Item": "I think this is good for now."
+              },
+              {
+                "Item": "Let’s move on to the next user story."
+              },
+              {
+                "Item": "____."
+              }
+            ]
+          },
+          {
+            "SubName": "Unnecessary code",
+            "Templates": [
+              {
+                "Item": "Are you sure we need that line/variable/function/class/etc.?"
+              },
+              {
+                "Item": "Do we need the variable/function/class/etc. on line(s) ____?"
+              },
+              {
+                "Item": "I don’t think we need that variable/function/class/etc. on line(s) ____?"
+              }
+            ]
+          },
+          {
+            "SubName": "(G7) Direct Instruction via backseat driver",
+            "Templates": [
+              {
+                "Item": "Delete line ____, we don’t need it."
+              },
+              {
+                "Item": "We should set ____ equal to ____ on line ___."
+              },
+              {
+                "Item": "Let’s have a for/while loop on line ___."
+              },
+              {
+                "Item": "Move that line to before line ___."
+              },
+              {
+                "Item": "The parameters should include _____."
+              },
+              {
+                "Item": "We need to check horizontal rows/vertical columns/diagonals. "
+              },
+              {
+                "Item": "This code is checking horizontal rows/vertical columns/diagonals. "
+              },
+              {
+                "Item": "The function(s) should return whether there was a win. "
+              }
+            ]
+          },
+          {
+            "SubName": "(G5) Acknowledge suggestions/instructions",
+            "Templates": [
+              {
+                "Item": "Sure, let’s do that."
+              },
+              {
+                "Item": "Sounds good with me."
+              },
+              {
+                "Item": "Yeah, good call."
+              },
+              {
+                "Item": "Uh, yeah sure."
+              },
+              {
+                "Item": "Alright."
+              }
+            ]
+          },
+          {
+            "SubName": "Script for Inaction",
+            "Templates": [
+              {
+                "Item": "____."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "PhaseName": "Switching Roles",
+        "SubCategories": [
+          {
+            "SubName": "Navigator -> Driver",
+            "Templates": [
+              {
+                "Item": "Mind if I give it a shot?"
+              },
+              {
+                "Item": "Need any help?"
+              },
+              {
+                "Item": "I can try?"
+              },
+              {
+                "Item": "Can I drive for a bit?"
+              },
+              {
+                "Item": "Need me to drive?"
+              },
+              {
+                "Item": "Do you want me to try?"
+              },
+              {
+                "Item": "I can try if you’re stuck."
+              },
+              {
+                "Item": "I can give it a look if you’d like."
+              }
+            ]
+          },
+          {
+            "SubName": "Driver -> Navigator (after uncertain)",
+            "Templates": [
+              {
+                "Item": "That’s all I can think of, …"
+              },
+              {
+                "Item": "I don’t know what to do from here …"
+              },
+              {
+                "Item": "Actually, I’m a bit stuck …"
+              },
+              {
+                "Item": "… Can you take over for a bit?"
+              },
+              {
+                "Item": "… Can you drive?"
+              },
+              {
+                "Item": "… Mind it you take over?"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "PhaseName": "Both",
+        "SubCategories": [
+          {
+            "SubName": "Script for Responding to Questions",
+            "Templates": [
+              {
+                "Item": "Yes."
+              },
+              {
+                "Item": "I think so."
+              },
+              {
+                "Item": "No."
+              },
+              {
+                "Item": "I don’t think so."
+              },
+              {
+                "Item": "Maybe, I’m not certain."
+              },
+              {
+                "Item": "I don’t know."
+              },
+              {
+                "Item": "Okay, let’s do it."
+              },
+              {
+                "Item": "Doesn’t matter to me."
+              },
+              {
+                "Item": "What do you mean by that?"
+              },
+              {
+                "Item": "I’m not sure what you mean."
+              },
+              {
+                "Item": "That’s what I was thinking. I don’t know."
+              }
+            ]
+          },
+          {
+            "SubName": "Active Listening",
+            "Templates": [
+              {
+                "Item": "Yeah."
+              },
+              {
+                "Item": "I see."
+              },
+              {
+                "Item": "____."
+              }
+            ]
+          },
+          {
+            "SubName": "Verification after creativity stage",
+            "Templates": [
+              {
+                "Item": "Does that sound good?"
+              },
+              {
+                "Item": "Are you good with that?"
+              },
+              {
+                "Item": "Are we good?"
+              },
+              {
+                "Item": "____."
+              }
+            ]
+          },
+          {
+            "SubName": "Agreement when correct/after success",
+            "Templates": [
+              {
+                "Item": "Oh hey, you were right. Nice job!"
+              },
+              {
+                "Item": "Oh sweet, it works."
+              },
+              {
+                "Item": "Yeah, I’m glad we did it your way."
+              },
+              {
+                "Item": "Sweet, we got it!"
+              },
+              {
+                "Item": "Awesome!"
+              },
+              {
+                "Item": "Nice!"
+              },
+              {
+                "Item": "Sweet!"
+              },
+              {
+                "Item": "I’m glad we figured that out"
+              },
+              {
+                "Item": "I knew we’d get it eventually."
+              }
+            ]
+          },
+          {
+            "SubName": "Script for Error",
+            "Templates": [
+              {
+                "Item": "Whoops, what’s this about?"
+              },
+              {
+                "Item": "That’s not good."
+              },
+              {
+                "Item": "Where’s that?"
+              },
+              {
+                "Item": "Wait, where’s the error?"
+              },
+              {
+                "Item": "Looks like it’s on line ___."
+              },
+              {
+                "Item": "I think there’s an error on line ___."
+              },
+              {
+                "Item": "Oh, it looks like there’s an error on line ___."
+              },
+              {
+                "Item": "I think the spelling’s wrong on line ___."
+              },
+              {
+                "Item": "I think there may be a spelling error on line ___"
+              },
+              {
+                "Item": "We may want to check line ___ for a spelling error"
+              },
+              {
+                "Item": "What type of error is it?"
+              },
+              {
+                "Item": "What kind of error did we make on that line?"
+              },
+              {
+                "Item": "What line is the error on?"
+              }
+            ]
+          },
+          {
+            "SubName": "Apology",
+            "Templates": [
+              {
+                "Item": "Oh, my bad."
+              },
+              {
+                "Item": "Oh my god, wow. That’s my bad. Thanks for catching that."
+              },
+              {
+                "Item": "Whoops, I’m sorry."
+              },
+              {
+                "Item": "Sorry about that."
+              },
+              {
+                "Item": "Sorry again. I didn’t catch it."
+              },
+              {
+                "Item": "Oh, you’re right, I’m sorry."
+              },
+              {
+                "Item": "Sorry, I don’t know."
+              }
+            ]
+          },
+          {
+            "SubName": "Script for Human Interaction Response",
+            "Templates": [
+              {
+                "Item": "You’re welcome!"
+              },
+              {
+                "Item": "It’s nothing."
+              },
+              {
+                "Item": "Glad I could help!"
+              },
+              {
+                "Item": "No problem!"
+              },
+              {
+                "Item": "Thanks!"
+              }
+            ]
+          },
+          {
+            "SubName": "Supporting Idea Generation",
+            "Templates": [
+              {
+                "Item": "What are all the possible ways we could do this?"
+              },
+              {
+                "Item": "Are there other ways we could do this?"
+              },
+              {
+                "Item": "Which way do you think is best?"
+              },
+              {
+                "Item": "What data structure can we use?"
+              },
+              {
+                "Item": "How should we store it. Like what data structure should we use?"
+              },
+              {
+                "Item": "Could we do this recursively?"
+              },
+              {
+                "Item": "____."
+              }
+            ]
+          },
+          {
+            "SubName": "Response to idea",
+            "Templates": [
+              {
+                "Item": "Why do you think so?"
+              },
+              {
+                "Item": "How would that look like?"
+              },
+              {
+                "Item": "Why are we doing it that way?"
+              },
+              {
+                "Item": "Is that better than what we’re doing now?"
+              },
+              {
+                "Item": "____."
+              }
+            ]
+          },
+          {
+            "SubName": "Script for Logic Assistance (Cannot redirect)",
+            "Templates": [
+              {
+                "Item": "I’m not very good at logic, do you have any ideas?"
+              },
+              {
+                "Item": "I’m not sure about that. We could look it up if you want."
+              },
+              {
+                "Item": "I can make a recommendation from online, but I can’t understand the logic very well."
+              },
+              {
+                "Item": "I’m afraid logic isn’t my strong suit, could you give me a hand?"
+              }
+            ]
+          },
+          {
+            "SubName": "Script for Feature Location",
+            "Templates": [
+              {
+                "Item": "I think that’s on line ____."
+              },
+              {
+                "Item": "It might be somewhere around line ____."
+              },
+              {
+                "Item": "It’s in the ____ file."
+              },
+              {
+                "Item": "It’s at the beginning/end of the file."
+              },
+              {
+                "Item": "I’m not sure where that is."
+              }
+            ]
+          },
+          {
+            "SubName": "Clarification",
+            "Templates": [
+              {
+                "Item": "We could clarify whether what they said was a question/answer/etc."
+              },
+              {
+                "Item": "Specific clarification cannot be templated we don’t think"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "PhaseName": "Finished",
+        "SubCategories": [
+          {
+            "SubName": "Finished",
+            "Templates": [
+              {
+                "Item": "Is that everything?"
+              },
+              {
+                "Item": "I think we did everything."
+              },
+              {
+                "Item": "I think the code works. Does that mean we’re done?"
+              },
+              {
+                "Item": "What do we do now?"
+              },
+              {
+                "Item": "Should we just keep improving it?"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "PhaseName": "Hints from User Stories/Test Cases",
+        "SubCategories": [
+          {
+            "SubName": "Script for return values",
+            "Templates": [
+              {
+                "Item": "We want to return whether there is a win/tie/the board is full or not."
+              },
+              {
+                "Item": "This function should return whether there is a win/tie/the board is full."
+              }
+            ]
+          },
+          {
+            "SubName": "Documentation",
+            "Templates": [
+              {
+                "Item": "Assert equals asserts that two objects are equal."
+              }
+            ]
+          },
+          {
+            "SubName": "Script for Tie Logic",
+            "Templates": [
+              {
+                "Item": "If all spaces are occupied, and no player has met a win condition, then it is a tie."
+              }
+            ]
+          },
+          {
+            "SubName": "Script for Empty Space Logic",
+            "Templates": [
+              {
+                "Item": "If a space is occupied by a '-' then it is considered empty."
+              }
+            ]
+          },
+          {
+            "SubName": "Script for Space Value Logic",
+            "Templates": [
+              {
+                "Item": "We can get the value of a square by accessing its coordinate in the array. For instance board[0][1] would return us the value of the item in (0,1) on the board."
+              },
+              {
+                "Item": "We can check if multiple spaces have a common value by seeing if they are equal to each other. For instance board[0][0] == board[0][1] would return true if they had the same player mark."
+              }
+            ]
+          },
+          {
+            "SubName": "Script for Tests",
+            "Templates": [
+              {
+                "Item": "Well I’m looking at the user stories and acceptance criteria, and ..."
+              },
+              {
+                "Item": "User Story 1/2/3 has us write a test for winning vertically/horizontally/diagonally."
+              },
+              {
+                "Item": "User Story 1/2/3 says we need to test for a vertical/horizontal/diagonal win."
+              },
+              {
+                "Item": "User Story 4 is for checking if the board is full using the isBoardFull method."
+              },
+              {
+                "Item": "User Story 5 is about making sure that the players take turns."
+              },
+              {
+                "Item": "We need to make a test for a tie game for User Story 6"
+              },
+              {
+                "Item": "For User Story 7, we need to write a test to check each method."
+              },
+              {
+                "Item": "We’re going to want to write a test for a tie/vertical win/horizontal win/diagonal win/if the board is full."
+              }
+            ]
+          },
+          {
+            "SubName": "Script for similarity",
+            "Templates": [
+              {
+                "Item": "It should be similar to the _____ test."
+              },
+              {
+                "Item": "It should be similar to what we did in User Story ____.."
+              },
+              {
+                "Item": "We can do something similar in the ____ test."
+              },
+              {
+                "Item": "We can do something similar in User Story ____."
+              }
+            ]
+          },
+          {
+            "SubName": "Script for Errors in Tests",
+            "Templates": [
+              {
+                "Item": "Ok, so ____ failure(s)."
+              },
+              {
+                "Item": "I don’t think the horizontal/vertical/diagonal win check is working/correct/right."
+              },
+              {
+                "Item": "Let’s double check the horizontal/vertical/diagonal win. I’m not sure it’s right."
+              },
+              {
+                "Item": "I don’t think our test for isBoardFull is working/correct/right."
+              },
+              {
+                "Item": "Let’s double check our test for isBoardFull and make sure we are checking for the right thing."
+              },
+              {
+                "Item": "I don't think our test for the tie game is correct."
+              },
+              {
+                "Item": "We should double check the tie game test and make sure we are checking for the right thing."
+              }
+            ]
+          },
+          {
+            "SubName": "Placement for Horizontal Tests\r",
+            "Templates": [
+              {
+                "Item": "Well for the horizontal test, we just have to place marks in a row, so at like (0,0), (1,0), and then (2,0)."
+              },
+              {
+                "Item": "Well for the horizontal test, we just have to place marks in a row, so at like (0,1), (1,1), and then (2,1)."
+              },
+              {
+                "Item": "Well for the horizontal test, we just have to place marks in a row, so at like (0,2), (1,2), and then (2,2)."
+              }
+            ]
+          },
+          {
+            "SubName": "Placement for Vertical Tests\r",
+            "Templates": [
+              {
+                "Item": "Well for the vertical test, we just have to place marks in a column, so at like (0,0), (0,1), and then (0,2)."
+              },
+              {
+                "Item": "Well for the vertical test, we just have to place marks in a column, so at like (1,0), (1,1), and then (1,2)."
+              },
+              {
+                "Item": "Well for the vertical test, we just have to place marks in a column, so at like (2,0), (2,1), and then (2,2)."
+              }
+            ]
+          },
+          {
+            "SubName": "Placement for Diagonal Tests",
+            "Templates": [
+              {
+                "Item": "Well for the diagonal test, we just have to place marks on the diagonal, so at like (0,0), (1,1), and then (2,2)."
+              },
+              {
+                "Item": "Well for the diagonal test, we just have to place marks on the diagonal, so at like (2,0), (1,1), and then (2,0)."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

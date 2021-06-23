@@ -1,0 +1,101 @@
+$darkest: #202225;
+$darker: #2f3136;
+$background-modifier: #4f545c29;
+$dark: #36393F;
+$medium: #454950;
+$highlight: #7289DA;
+$template-normal: #8e9297;
+$template-hover: #dcddde;
+$input-background: #40444b;
+$text-color: rgb(220, 221, 222);
+
+html {
+    background-color: $darkest;
+    .main_page {
+        color: $text-color;
+
+        .tabs {
+            background-color: $dark;
+            
+            .tab a {
+                color: $highlight;
+            }
+
+            .indicator {
+                background-color: $highlight;
+            }
+        }
+
+        .collapsible-header {
+            &:focus {
+                background-color: $medium;
+            }
+
+            background-color: $dark;
+            border-color: $darkest;
+        }
+        .collapsible-body {
+            background-color: $darker;
+            border: $darkest;
+            padding: 1rem;
+
+            .template-list {
+                //box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+        
+                .template-item {
+                    &:hover {
+                        background-color: $background-modifier;
+                        color: $template-hover;
+                    }
+                    color: $template-normal;
+                    margin: 2px;
+                    border-radius: 6px;
+                    padding: 0.5rem 1rem;
+                    width: 100%;
+                    cursor: pointer;
+        
+                }
+            }
+        }
+
+        .tts-input-container {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            padding: 1rem;
+            background-color: #2f3136;
+            display: flex;
+            
+
+            .tts-input {
+                background-color: $input-background;
+                border-radius: 0.5rem;
+                border: 0;
+                padding: 0 1rem;
+                flex-grow: 10;
+
+                input {
+                    margin: 0;
+                    color: $text-color;
+                    box-sizing: border-box;
+                    width: 100%;
+                }
+            }
+
+            a {
+                margin-left: 1rem;
+                height: 3rem;
+                line-height: 3rem;
+                flex-grow: 1;
+            }
+
+            .speak-btn {
+                background-color: $highlight;
+            }
+
+            .stop-btn {
+                //background-color: red;
+            }
+        }
+    }
+}
